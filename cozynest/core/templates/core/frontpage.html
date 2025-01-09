@@ -1,0 +1,21 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block title %}CozyNest{% endblock %}
+
+{% block content %}
+<header class="py-8 bg-[#a78bfa] text-white">
+    <p class="text-3xl lg:text-5xl font-bold text-center text-gray-800">
+        Welcome to CozyNest
+    </p>
+    <p class="text-lg lg:text-2xl text-center text-gray-600 pt-4">
+        Your perfect nest for cozy living. Explore our shop, learn about us, or get in touch.
+    </p>
+    <div class="flex justify-center mt-8">
+        <a href="#"
+            class="px-4 py-2 text-lg font-semibold text-[#525252] bg-[#99f6e4] rounded-lg shadow-lg hover:bg-[#6ee7b7] transition-colors">
+            Shop Now
+        </a>
+    </div>
+</header>
+{% endblock %}
